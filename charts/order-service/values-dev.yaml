@@ -1,7 +1,7 @@
 replicaCount: 2
 image:
-  repository: REPLACE_ACCOUNT.dkr.ecr.us-east-1.amazonaws.com/gitops-platform/order-service
-  tag: "1.0.0"
+  repository: 437287029768.dkr.ecr.us-east-1.amazonaws.com/gitops-platform/order-service
+  tag: "da52c4fa"
 ingress:
   enabled: true
   className: nginx
