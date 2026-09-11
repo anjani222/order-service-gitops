@@ -1,7 +1,7 @@
 replicaCount: 2
 image:
   repository: 437287029768.dkr.ecr.us-east-1.amazonaws.com/gitops-platform/order-service
-  tag: "fbebbd57"
+  tag: "a4c5a8a5"
 autoscaling:
   enabled: true
   minReplicas: 3
