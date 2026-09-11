@@ -12,6 +12,6 @@ ingress:
   className: nginx
   host: orders.local
 serviceMonitor:
-  enabled: false
+  enabled: true
   labels:
-    release: kube-prometheus-stack
+    release: monitoring
